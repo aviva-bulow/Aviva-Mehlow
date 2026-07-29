@@ -22,4 +22,11 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/aviva-bulow/Aviva-Mehlow',
     liveUrl: 'https://aviva-bulow.github.io/Aviva-Mehlow/',
   },
+  {
+    name: 'Printhead Cleaner',
+    description:
+      "A cron job that keeps my EcoTank's print heads from clogging by generating a colorful kids' activity page and printing it every two weeks. Uses ISO-week parity to get a true 14-day cadence from a weekly cron trigger, and a hidden CMYK swatch strip to guarantee every ink channel actually fires, even on scenes with a mixed color palette.",
+    tools: ['Python', 'Pillow', 'Bash', 'cron', 'CUPS'],
+    githubUrl: 'https://github.com/A-B-Software/printhead-cleaner',
+  },
 ]
