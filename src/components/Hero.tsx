@@ -14,10 +14,10 @@ export function Hero() {
       </p>
       <div className="mt-8 flex flex-wrap items-center justify-center gap-4 text-sm">
         <a
-          href="#projects"
+          href="#experience"
           className="rounded-md bg-purple-600 px-5 py-2.5 font-medium text-white hover:bg-purple-700"
         >
-          View Projects
+          View Experience
         </a>
         <a
           href="#contact"
